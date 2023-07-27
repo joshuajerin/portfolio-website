@@ -1,18 +1,30 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home-page relative h-screen">
+    <video class="fixed inset-0 w-full h-full object-cover" autoplay muted loop id="myVideo">
+      <source :src="require('./ColourExplodingVideo.mp4')" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="content absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center">
+      <header class="w-10/12 text-center">
+        <h1 class="main-heading text-white text-[100px] font-normal leading-tight font-[JustAnotherHand] ">
+          Making Things <br>Sing since '07
+        </h1>
+        <p class="sub-heading text-[#EAEAEA] text-[40px] font-normal leading-snug font-[RobotoSlab] mt-14">
+          Hello👋 I’m Joshua, a Software Developer. I love creating objects that I'm most passionate about💻🤖
+        </p>
+      </header>
+    </div>
   </div>
 </template>
 
+
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    // List your components here
   }
 }
 </script>
