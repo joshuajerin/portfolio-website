@@ -13,12 +13,16 @@
         <p class="sub-heading text-[#EAEAEA] text-[40px] font-normal leading-snug font-[RobotoSlab] mt-14">
           Hello👋 I’m Joshua, a Software Developer. I love creating objects that I'm most passionate about💻🤖
         </p>
-        <li class="mr-8 text-lg text-white cursor-pointer"><router-link to="/about">Portfolio</router-link></li>
+      <ul class="flex justify-center space-x-8 text-[30px] text-white cursor-pointer mt-14">
+          <li><router-link to="/projects">Projects</router-link></li>
+          <li><router-link to="/about">About Me</router-link></li>
+          <li><router-link to="/contact">Get In Touch</router-link></li>
+        </ul>
       </header>
     </div>
-    
   </div>
 </template>
+     
 
 
 <script>

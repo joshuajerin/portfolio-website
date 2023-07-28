@@ -12,16 +12,10 @@
     </router-link>
     <div class = "flex justify-end w-5/12 h-16 mr-10">
       <a href = "" target = "_blank" class = "my-auto cursor-pointer ml-7">
-        <i class = "text-2xl text-white fa-brands fa-instagram"></i>
-      </a>
-      <a href = "" target = "_blank" class = "my-auto cursor-pointer ml-7">
-        <i class = "text-2xl text-white fa-brands fa-facebook"></i>
-      </a>
-      <a href = "" target = "_blank" class = "my-auto cursor-pointer ml-7">
         <i class = "text-2xl text-white fa-brands fa-linkedin"></i>
       </a>
       <a href = "" target = "_blank" class = "my-auto cursor-pointer ml-7">
-        <i class = "text-2xl text-white fa-brands fa-twitter"></i>
+        <i class = "text-2xl text-white fa-brands fa-github"></i>
       </a>
     </div>
     <router-view/>
