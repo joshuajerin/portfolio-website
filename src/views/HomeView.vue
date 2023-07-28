@@ -8,10 +8,10 @@
     <div class="content absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center">
       <header class="w-10/12 text-center">
         <h1 class="main-heading text-white text-[100px] font-normal leading-tight font-[JustAnotherHand] ">
-          Making Things <br>Sing since '07
+          Making Things <br>Sing since '04
         </h1>
         <p class="sub-heading text-[#EAEAEA] text-[40px] font-normal leading-snug font-[RobotoSlab] mt-14">
-          Hello👋 I’m Joshua, a Software Developer. I love creating objects that I'm most passionate about💻🤖
+          Hello👋 I’m Joshua, a Software Developer. I love to merge creativity with technology, developing innovative software that breaks barriers and sets new standards💻🤖
         </p>
       <ul class="flex justify-center space-x-8 text-[30px] text-white cursor-pointer mt-14">
           <li><router-link to="/projects">Projects</router-link></li>
