@@ -8,7 +8,7 @@
       </ul>
     </nav>
     <router-link to="/">
-      <img src = "./Name-Logo.png" class = "object-contain max-h-16 h-full w-full"/>
+      <img src = "/Name-Logo.png" class = "object-contain max-h-16 h-full w-full"/>
     </router-link>
     <div class = "flex justify-end w-5/12 h-16 mr-10">
       <a href = "" target = "_blank" class = "my-auto cursor-pointer ml-7">

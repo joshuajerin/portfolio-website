@@ -1,7 +1,7 @@
 <template>
   <div class="home-page relative h-screen">
     <video class="fixed inset-0 w-full h-full object-cover" autoplay muted loop id="myVideo">
-      <source :src="require('./ColourExplodingVideo.mp4')" type="video/mp4">
+      <source :src="require('/ColourExplodingVideo.mp4')" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 
@@ -13,6 +13,7 @@
         <p class="sub-heading text-[#EAEAEA] text-[40px] font-normal leading-snug font-[RobotoSlab] mt-14">
           Hello👋 I’m Joshua, a Software Developer. I love creating objects that I'm most passionate about💻🤖
         </p>
+        <li class="mr-8 text-lg text-white cursor-pointer"><router-link to="/about">Portfolio</router-link></li>
       </header>
     </div>
     
