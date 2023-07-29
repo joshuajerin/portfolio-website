@@ -50,4 +50,3 @@ export default {
   name: "App",
 };
 </script>
-//justify-between relative overflow-hidden
