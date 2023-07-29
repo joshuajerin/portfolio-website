@@ -1,6 +1,6 @@
 <template>
-  <div>
-  <div class = " rounded-full flex justify-center items-center max-h-full w-10/12 h-16 mx-auto my-10  lg:flex bg-black">
+  <div class="flex flex-col min-h-screen bg-black">
+    <div class = "rounded-full flex justify-center items-center max-h-full w-10/12 h-16 mx-auto my-10 lg:flex">
     <nav class = "self-center w-5/12 ml-10">
       <ul class = "flex">
         <li class = "mr-8 text-lg text-white cursor-pointer"><router-link to="/projects">Projects</router-link></li>
@@ -22,19 +22,41 @@
     <router-view/>
   </div>
 
-  <div class="inset-0 text-white flex items-center justify-center">
-      <header class="w-10/12 text-center">
-        <h1 class="main-heading text-[100px] font-normal leading-tight font-[JustAnotherHand] ">
-          PAGE AVAILABLE SOON!
+    <div class="flex-grow flex items-center justify-center flex-col bg-black">
+      <!-- Form and other content -->
+      <header class="w-7/12 mb-5">
+        <h1 class="main-heading text-[30px] font-normal text-white leading-tight font-[JustAnotherHand] ">
+          Dear Joshua,
         </h1>
       </header>
-  </div>
+      <form class="w-7/12 text-center">
+        <input class="rounded-md w-full h-[200px] p-2 mb-6 text-black text-lg bg-white opacity-100" type="text" placeholder="Your first message">
+        <input class="rounded-md w-full h-[50px] p-2 mb-6 text-black text-lg bg-white opacity-100" type="text" placeholder="Your second message">
+        <input class="rounded-md w-full h-[50px] p-2 mb-6 text-black text-lg bg-white opacity-100" type="text" placeholder="Your third message">
+      </form>
+      <div class="w-7/12 mt-[20px] flex justify-between">
+      <button class="text-center w-3/12 p-2 bg-blue-500 hover:bg-blue-800 text-white font-bold " type="submit">Submit</button>
+      <p class="text-right text-white text-lg">Or email me at jerinja@mail.uc.edu</p>
+      </div>
+
+    </div>
+    
+      <div class=" flex flex-col gap-3 w-full items-center h-[100px] px-[530px] py-2 mt-[50px]">
+          <div class="text-white flex flex-col gap-3 w-full items-center">
+        <div class="text-3xl font-['Kaisei_Opti'] w-48 h-[46.25%]">
+          Joshua Jerin
+        </div>
+        <div class="font-['Kaisei_Opti'] self-center w-48">
+          Cincinnati, OH, USA
+        </div>
+      </div>
+        </div>
   </div>
 </template>
+
 
 <script>
 export default {
   name: "App",
 };
 </script>
-//justify-between relative overflow-hidden
