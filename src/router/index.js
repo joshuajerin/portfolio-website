@@ -1,7 +1,9 @@
+import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
-import Vue from 'vue'
+import BlogView from '../views/BlogView.vue'
+import ContactView from '../views/ContactView.vue'
 
 Vue.use(VueRouter)
 
@@ -24,6 +26,16 @@ const routes = [
     name: 'Projects',
     component: ProjectsView,
   },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: ContactView
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: BlogView
+  }
 ]
 
 const router = new VueRouter({
