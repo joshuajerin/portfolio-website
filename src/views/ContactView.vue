@@ -58,13 +58,13 @@
           </div>
       <router-view />
       <div class="flex-grow flex items-center justify-center flex-col text-white">
-        <div class="text-4xl font-['Kaisei_Opti'] self-start">
+        <div class="text-[50px] lg:text-5xl font-['Kaisei_Opti'] self-start">
           Contact Info
         </div>
-        <div class="text-6xl font-['Kaisei_Opti'] leading-[50px] self-start mt-[40px]">
+        <div class="text-[40px] lg:text-5xl font-['Kaisei_Opti'] leading-[50px] self-start mt-[20px] lg:mt-[40px]">
           Email: jerinja@mail.uc.edu</div>
-          <div class="text-6xl font-['Kaisei_Opti'] leading-[50px] self-start mt-[30px]">
-            Phone Number: +1 (513)957-5755</div>
+          <div class="text-[40px] lg:text-5xl font-['Kaisei_Opti'] leading-[50px] self-start mt-[10px] lg:mt-[30px]">
+            Phone Number: <br>+1 (513)957-5755</div>
         </div>
         <!-- Footer-->
     <div class="relative flex flex-col gap-3 w-full bg-black items-center h-[90px] mt-10 py-2 ">
