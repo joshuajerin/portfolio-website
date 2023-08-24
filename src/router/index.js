@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ContactView from '../views/ContactView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
+import BlogView from '../views/BlogView.vue'
+import ContactView from '../views/ContactView.vue'
 
 Vue.use(VueRouter)
 
@@ -21,15 +22,20 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/contact',
-    name: 'Contact',
-    component: ContactView,
-  },
-  {
     path: '/projects',
     name: 'Projects',
     component: ProjectsView,
   },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: ContactView
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: BlogView
+  }
 ]
 
 const router = new VueRouter({

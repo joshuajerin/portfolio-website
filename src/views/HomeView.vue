@@ -1,36 +1,70 @@
 <template>
   <div class="home-page relative h-screen">
-    <video class="fixed inset-0 w-full h-full object-cover" autoplay muted loop id="myVideo">
-      <source :src="require('/ColourExplodingVideo.mp4')" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <div v-if="loading" class="loading-screen">
+      <!-- ... (loading screen content) ... -->
+    </div>
 
-    <div class="content absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center">
-      <header class="w-10/12 text-center">
-        <h1 class="main-heading text-white text-[100px] font-normal leading-tight font-[JustAnotherHand] ">
-          Making Things <br>Sing since '04
-        </h1>
-        <p class="sub-heading text-[#EAEAEA] text-[40px] font-normal leading-snug font-[RobotoSlab] mt-14">
-          Hello👋 I’m Joshua, a Software Developer. I love to merge creativity with technology, developing innovative software that breaks barriers and sets new standards💻🤖
-        </p>
-      <ul class="flex justify-center space-x-8 text-[30px] text-white cursor-pointer mt-14">
-          <li><router-link to="/projects">Projects</router-link></li>
-          <li><router-link to="/about">About Me</router-link></li>
-          <li><router-link to="/contact">Get In Touch</router-link></li>
-        </ul>
-      </header>
+    <div v-else>
+      <video class="fixed inset-0 w-full h-full object-cover" autoplay muted loop id="myVideo">
+        <source :src="require('/ColourExplodingVideo.mp4')" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="content absolute inset-0 bg-none bg-opacity-50 text-white flex flex-col lg:flex-row items-start justify-between">
+        <!-- Main content section -->
+        <header class="w-full md:w-1/2 text-left pl-8 lg:pl-12 pt-8 lg:pt-20"> 
+          <h1 class="main-heading text-white text-[50px] lg:text-[100px] font-normal leading-tight font-[JustAnotherHand]">
+            Bridging Ideas <br>with Algorithms
+          </h1>
+          <p class="sub-heading text-[#EAEAEA] text-[20px] lg:text-[30px] font-normal leading-snug font-[RobotoSlab] mt-8 md:mt-14 text-left">
+            Driven by passion and powered by code, I merge innovation with technology to sculpt digital landscapes. As we venture into an era where the virtual intertwines with the real, I stand at the forefront, ready to shape the future. Dive in, explore my work, and let's script tomorrow together.
+          </p>
+        </header>
+
+        <!-- Navigation links section -->
+        <nav class="w-full lg:w-1/2 pr-8 lg:pr-12 flex flex-col justify-center items-center space-y-6 lg:space-y-10 mt-8 lg:mt-[100px]">
+          <router-link class="text-[35px] md:text-[35px]" to="/projects">Projects</router-link>
+          <router-link class="text-[35px] md:text-[35px]" to="/about">About Me</router-link>
+          <router-link class="text-[35px] md:text-[35px]" to="/contact">Get In Touch</router-link>
+          <router-link class="text-[35px] md:text-[35px]" to="/blog">Blog</router-link> <!-- added margin-bottom here -->
+
+          <!-- Twitter links -->
+          <div class=""></div>
+            <div class="flex space-x-4 ">
+              <a href="https://twitter.com/JoshuaJerin1" target="_blank">
+                <i class="text-[50px] text-white fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://twitter.com/JoshuaJerin1" target="_blank">
+                <i class="ml-[30px] text-[50px] text-white fa-brands fa-github"></i>
+              </a>
+            </div>
+            <div class="flex space-x-4 mt-[25px]">
+              <a href="https://twitter.com/JoshuaJerin1" target="_blank">
+                <i class="text-[50px] text-white fa-brands fa-linkedin mb-10"></i>
+              </a>
+              
+          </div>
+        </nav>
+        
+      </div>
     </div>
   </div>
 </template>
-     
 
 
 <script>
 // @ is an alias to /src
 export default {
   name: 'HomeView',
-  components: {
-    // List your components here
+  data() {
+    return {
+      //loading: true
+    }
   }
+  /* mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000); // 5000 ms = 5 seconds
+  } */
 }
 </script>
