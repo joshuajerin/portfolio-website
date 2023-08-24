@@ -68,13 +68,13 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 ml-16 mr-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 ml-16 mr-12 text-black">
         <!-- Project 1 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
-          <router-link to="/">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start text-black">
+          <router-link to="/">  <div class = "h-[250px]">
             <img
               src="masterAI.png"
-              class="min-h-0 min-w-0 w- self-center object-cover" />
+              class="min-h-0 min-w-0 w-full self-center object-cover" /></div>
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
               Master.AI
             </div>
@@ -87,10 +87,10 @@
 
         <!-- Project 2 details -->
         <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
-          <router-link to="/">
+          <router-link to="/"><div class = "h-[250px]">
             <img
               src="HelloWorld.png"
-              class="min-h-0 min-w-0 self-center object-cover" />
+              class="min-h-0 min-w-0 w-full self-center object-cover" /></div>
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-40 h-[8.71%]">
               Hello World
             </div>
@@ -103,10 +103,10 @@
 
         <!-- Project 3 details -->
         <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
-          <router-link to="/">
+          <router-link to="/"><div class = "h-[250px]">
             <img
               src="white.png"
-              class="min-h-0 min-w-0 self-center object-cover" />
+              class="min-h-0 min-w-0 w-full self-center object-cover" /></div>
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
             COMING SOON!
             </div>
@@ -118,11 +118,11 @@
         <!-- End of project 3 details -->
 
         <!-- Project 4 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full md:w-[500px] items-start">
-          <router-link to="/">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
+          <router-link to="/"><div class = "h-[250px]">
             <img
               src="white.png"
-              class="min-h-0 min-w-0 self-center object-cover" />
+              class="min-h-0 min-w-0 w-full self-center object-cover" /></div>
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
               COMING SOON!
             </div>
