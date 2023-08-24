@@ -67,52 +67,52 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 ml-24 mr-20 w-9/12">
         <!-- Project 1 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="white.png"
               class="min-h-0 min-w-0 self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+              COMING SOON!
             </div>
           </router-link>
         </div>
         <!-- End of project 1 details -->
 
         <!-- Project 2 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="white.png"
               class="min-h-0 min-w-0 self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+              COMING SOON!
             </div>
           </router-link>
         </div>
         <!-- End of project 2 details -->
 
         <!-- Project 3 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="white.png"
               class="min-h-0 min-w-0 self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+              COMING SOON!
             </div>
           </router-link>
         </div>
         <!-- End of project 3 details -->
 
         <!-- Project 4 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full md:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="white.png"
               class="min-h-0 min-w-0 self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+              COMING SOON!
             </div>
           </router-link>
         </div>

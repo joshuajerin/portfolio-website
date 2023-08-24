@@ -84,60 +84,33 @@
       <div class="flex flex-row justify-center lg:justify-end w-full items-center mb-16 lg:ml-8">
         <div class="flex flex-col w-10/12 lg:w-[822px] lg:mr-24">
           <div class="text-2xl font-['Kaisei_Opti'] leading-[30px] h-[50%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            condimentum, mi sed posuere sollicitudin, lorem orci feugiat justo, eget
-            venenatis tortor tortor sed est. Phasellus a aliquam lacus. Morbi id
-            cursus dolor, et condimentum risus. Sed imperdiet ligula ac justo
-            feugiat, eu tristique orci consectetur.
+            Hey there! I'm Joshua and if there's one thing you should know about me, it's that I thrive on creativity. I see the world a tad differently - every problem is a challenge, waiting to be transformed into an opportunity. From the lecture halls of the University of Cincinnati to the bustling startup scenes, I've always been driven by an insatiable curiosity.
           </div><br>
           <div class="text-2xl font-['Kaisei_Opti'] leading-[30px] h-[50%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            condimentum, mi sed posuere sollicitudin, lorem orci feugiat justo, eget
-            venenatis tortor tortor sed est. Phasellus a aliquam lacus. Morbi id
-            cursus dolor, et condimentum risus. Sed imperdiet ligula ac justo
-            feugiat, eu tristique orci consectetur.
+            I've spent countless hours at the Lindner College of Business, not just attending classes, but diving deep into everything the startup world has to offer. Remember the 25th-anniversary bash for our center? I was right in the thick of it, planning, coordinating, and making sure it was an event to remember. And that's just the tip of the iceberg.
           </div>
         </div>
       </div>
 
       <div class="flex-grow flex items-center  justify-center flex-col text-white ">
-      <!-- Centered Text -->
-      <div class="text-center  mb-8 lg:self-start lg:text-start lg:ml-4">
-        <div class="text-4xl font-['Kaisei_Opti'] ">
-          Introducing.
-        </div>
-        <div class="text-6xl font-['Kaisei_Opti'] leading-[60px]">
-          young.
-          <br />
-          enthusiastic.
-        </div>
-      </div>
 
       <!-- Images in Grid Layout -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:ml-[200px] gap-8 mb-8 lg:w-[822px] px-4">
         <div class="bg-[#d9d9d9] w-full lg:w-[388px] h-[352px] overflow-hidden">
-          <img src="/IMG-9551.png" class="object-cover w-full h-full" />
+          <img src="/IMG_9090.JPG" class="object-cover w-full h-full" />
         </div>
         <div class="bg-[#d9d9d9] w-full lg:w-[388px] h-[352px] overflow-hidden">
-          <img src="/IMG_3456.jpeg" class="object-cover w-full h-full" />
+          <img src="/IMG_9715.png" class="object-cover w-full h-full" />
         </div>
       </div>
 
       <div class="flex flex-row justify-center lg:justify-end w-full items-center mb-10 lg:ml-8">
         <div class="flex flex-col w-10/12 lg:w-[822px] lg:mr-24">
           <div class="text-2xl font-['Kaisei_Opti'] leading-[30px] h-[50%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            condimentum, mi sed posuere sollicitudin, lorem orci feugiat justo, eget
-            venenatis tortor tortor sed est. Phasellus a aliquam lacus. Morbi id
-            cursus dolor, et condimentum risus. Sed imperdiet ligula ac justo
-            feugiat, eu tristique orci consectetur.
+            Apart from my academic and co-curricular achievements, I've been deeply involved with local businesses, fostering relationships that led to successful funding rounds and strategic partnerships. I pride myself on my ability to blend technical acumen with a business mindset, ensuring that projects I undertake not only utilize cutting-edge technology but also have a clear path to scalability and success.
           </div><br>
           <div class="text-2xl font-['Kaisei_Opti'] leading-[30px] h-[50%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            condimentum, mi sed posuere sollicitudin, lorem orci feugiat justo, eget
-            venenatis tortor tortor sed est. Phasellus a aliquam lacus. Morbi id
-            cursus dolor, et condimentum risus. Sed imperdiet ligula ac justo
-            feugiat, eu tristique orci consectetur.
+            So, as you scroll through, remember you're not just looking at projects and achievements. You're taking a peek into my mind, my creativity, and my relentless pursuit of excellence. If you're as passionate about reshaping the world as I am, or simply want to chat about the next big thing, drop me a message!
           </div>
         </div>
       </div>

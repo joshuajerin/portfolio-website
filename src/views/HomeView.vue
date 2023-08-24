@@ -14,10 +14,10 @@
         <!-- Main content section -->
         <header class="w-full md:w-1/2 text-left pl-8 lg:pl-12 pt-8 lg:pt-20"> 
           <h1 class="main-heading text-white text-[50px] lg:text-[100px] font-normal leading-tight font-[JustAnotherHand]">
-            Making Things <br>Sing since '04
+            Bridging Ideas <br>with Algorithms
           </h1>
           <p class="sub-heading text-[#EAEAEA] text-[20px] lg:text-[30px] font-normal leading-snug font-[RobotoSlab] mt-8 md:mt-14 text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum. Morbi malesuada quis erat at blandit. Sed placerat vehicula leo. Quisque at feugiat dui. Quisque at feugiat dui. Quisque at feugiat dui. Quisque at feugiat dui.
+            Driven by passion and powered by code, I merge innovation with technology to sculpt digital landscapes. As we venture into an era where the virtual intertwines with the real, I stand at the forefront, ready to shape the future. Dive in, explore my work, and let's script tomorrow together.
           </p>
         </header>
 

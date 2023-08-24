@@ -60,77 +60,74 @@
 
     <div class="flex-grow flex items-center justify-center flex-col bg-black text-white mt-[80px]">
     <div class="mb-[50px] mt-[50px] text-center lg:mr-[680px] lg:text-left ml-24 mr-20">
-        <div class="text-4xl lg:text-4xl text-3xl font-['Kaisei_Opti'] font-medium w-full lg:w-[306px] h-[2.12%] mb-4">
-            Main Heading
+        <div class="text-4xl lg:text-4xl text-3xl font-['Kaisei_Opti'] font-medium w-full lg:w-[306px] h-[2.12%] mb-2">
+            Projects
         </div>
         <div class="text-xl lg:text-2xl font-['Kaisei_Opti'] w-full lg:w-[493px] h-[6.89%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-            amet,
-            <br />
-            (subtext)
+          Take a peek at what I've worked on and get a glimpse of the exciting projects coming soon.
         </div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 ml-16 mr-12">
         <!-- Project 1 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
-              class="min-h-0 min-w-0 self-center object-cover" />
+              src="masterAI.png"
+              class="min-h-0 min-w-0 w- self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
               Master.AI
             </div>
             <div class="text-xs font-['Kaisei_Opti'] mt-2 lg:mt-0 ml-4 w-2/5 h-[1.65%]">
-              Branding, Strategy, Art Direction, Illustration
+              AI, Git, Ruby on Rails, PostgreSQL
             </div>
           </router-link>
         </div>
         <!-- End of project 1 details -->
 
         <!-- Project 2 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="HelloWorld.png"
               class="min-h-0 min-w-0 self-center object-cover" />
-            <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+            <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-40 h-[8.71%]">
+              Hello World
             </div>
-            <div class="text-xs font-['Kaisei_Opti'] mt-2 lg:mt-0 ml-4 w-2/5 h-[1.65%]">
-              Branding, Strategy, Art Direction, Illustration
+            <div class="text-xs font-['Kaisei_Opti'] lg:mt-0 ml-4 w-2/5 h-[1.65%]">
+              Swift, Vision Pro, SwiftUI, ARKit
             </div>
           </router-link>
         </div>
         <!-- End of project 2 details -->
 
         <!-- Project 3 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="white.png"
               class="min-h-0 min-w-0 self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+            COMING SOON!
             </div>
             <div class="text-xs font-['Kaisei_Opti'] mt-2 md:mt-0 ml-4 w-2/5 h-[1.65%]">
-              Branding, Strategy, Art Direction, Illustration
+            
             </div>
           </router-link>
         </div>
         <!-- End of project 3 details -->
 
         <!-- Project 4 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full md:w-full items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full md:w-[500px] items-start">
           <router-link to="/">
             <img
-              src="https://file.rendit.io/n/v6v6igjTlf0uhuuDHz6j.png"
+              src="white.png"
               class="min-h-0 min-w-0 self-center object-cover" />
             <div class="text-2xl font-['Kaisei_Opti'] ml-4 w-24 h-[8.71%]">
-              Master.AI
+              COMING SOON!
             </div>
             <div class="text-xs font-['Kaisei_Opti'] mt-2 md:mt-0 ml-4 w-2/5 h-[1.65%]">
-              Branding, Strategy, Art Direction, Illustration
+              
             </div>
           </router-link>
         </div>

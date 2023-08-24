@@ -64,7 +64,7 @@
         <div class="text-[40px] lg:text-5xl font-['Kaisei_Opti'] leading-[50px] self-start mt-[20px] lg:mt-[40px]">
           Email: jerinja@mail.uc.edu</div>
           <div class="text-[40px] lg:text-5xl font-['Kaisei_Opti'] leading-[50px] self-start mt-[10px] lg:mt-[30px]">
-            Phone Number: <br>+1 (513)957-5755</div>
+            Phone Number: <br class = "block lg:hidden">+1 (513)957-5755</div>
         </div>
         <!-- Footer-->
     <div class="relative flex flex-col gap-3 w-full bg-black items-center h-[90px] mt-10 py-2 ">
