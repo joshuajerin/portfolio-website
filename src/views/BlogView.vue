@@ -80,7 +80,7 @@
         <!-- End of project 1 details -->
 
         <!-- Project 2 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col ml-20 pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
               src="white.png"
@@ -106,7 +106,7 @@
         <!-- End of project 3 details -->
 
         <!-- Project 4 details -->
-        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col pb-4 gap-2 w-full lg:w-[500px] items-start">
+        <div class="overflow-hidden bg-[#c8c8c8] flex flex-col ml-20 pb-4 gap-2 w-full lg:w-[500px] items-start">
           <router-link to="/">
             <img
               src="white.png"
